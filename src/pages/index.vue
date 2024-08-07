@@ -7,8 +7,7 @@
     <br />
     <RouterLink to="/tasks">Tasks</RouterLink>
     <br /><br />
-    <RouterLink :to="{ name: '/projects/[id]', params: { id: 1 } }">Got to Project 1</RouterLink>
-    <br />
-    <RouterLink :to="{ name: '/projects/[id]', params: { id: 2 } }">Got to Project 2</RouterLink>
+    <RouterLink to="/tasks/todolist">To Do List</RouterLink>
+    <br /><br />
   </div>
 </template>

@@ -13,11 +13,11 @@
     "format": "prettier --write src/",
     "supabase:init": "supabase init --workdir .",
     "supabase:login": "supabase login",
-    "supabase:link": "supabase link --project-ref twotzqwronlwxlonlsjc",
+    "supabase:link": "supabase link --project-ref eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR3b3R6cXdyb25sd3hsb25sc2pjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcyMDkyMDg0MywiZXhwIjoyMDM2NDk2ODQzfQ.J6-p8DoT_j4bePdVpST-JAjWOZx7QQAz09S7y4sXeP4",
     "db:migrate:new": "supabase migration new",
     "db:reset": "supabase db reset --linked",
     "db:seed": "node --env-file=.env database/seed.js",
-    "supabase:types": "npx supabase gen types typescript --project-id twotzqwronlwxlonlsjc --schema public > database/types.ts"
+    "supabase:types": "npx supabase gen types typescript --project-id eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR3b3R6cXdyb25sd3hsb25sc2pjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcyMDkyMDg0MywiZXhwIjoyMDM2NDk2ODQzfQ.J6-p8DoT_j4bePdVpST-JAjWOZx7QQAz09S7y4sXeP4 --schema public > database/types.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.44.3",
