@@ -1,9 +1,4 @@
 <script setup>
-import { ref, computed } from 'vue'
-import Input from '@/components/ui/input/Input.vue'
-import Button from '@/components/ui/button/Button.vue'
-import Checkbox from '@/components/ui/checkbox/Checkbox.vue'
-
 const msg = ref('to do list')
 const editing = ref(false)
 const todoItem = ref('')

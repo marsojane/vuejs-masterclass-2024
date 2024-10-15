@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Linkedin } from 'lucide-vue-next'
-
 interface LinkProp {
   title: string
   to: string
